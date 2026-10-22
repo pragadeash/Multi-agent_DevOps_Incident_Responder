@@ -1,0 +1,18 @@
+# Amazon Bedrock AgentCore features for the DevOps Incident Responder.
+# `./kit deploy` adds what is enabled to deploy/agentcore/agentcore.json (via the AgentCore CLI)
+# and deploys it with the runtime. Use them from the agent through decider_kit/agentcore.py.
+#
+# Memory: off — incident state is per-session and kept in agent memory within the turn.
+# Gateway: off — all tools are in-process (simulated environment); no external MCP endpoint needed.
+
+memory:
+  enabled: false
+  name: agentmemory
+  strategies: [SEMANTIC, USER_PREFERENCE]
+  expiry_days: 30
+
+gateway:
+  enabled: false
+  name: tools
+  authorizer: AWS_IAM
+  targets: []

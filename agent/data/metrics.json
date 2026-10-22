@@ -1,0 +1,80 @@
+{
+  "api-gateway": {
+    "error_rate_pct":    42.0,
+    "cpu_pct":           68.0,
+    "memory_pct":        55.0,
+    "latency_p50_ms":    1800,
+    "latency_p99_ms":    8200,
+    "restarts_1h":       0,
+    "connections_used":  null,
+    "connections_max":   null,
+    "req_per_sec":       210,
+    "last_deployment":   "v2.3.1",
+    "deployment_age_min": 15
+  },
+  "user-db": {
+    "error_rate_pct":    35.0,
+    "cpu_pct":           40.0,
+    "memory_pct":        60.0,
+    "latency_p50_ms":    5000,
+    "latency_p99_ms":    30000,
+    "restarts_1h":       0,
+    "connections_used":  100,
+    "connections_max":   100,
+    "req_per_sec":       80,
+    "last_deployment":   "v1.8.0",
+    "deployment_age_min": 115
+  },
+  "worker-service": {
+    "error_rate_pct":    0.0,
+    "cpu_pct":           30.0,
+    "memory_pct":        98.0,
+    "latency_p50_ms":    null,
+    "latency_p99_ms":    null,
+    "restarts_1h":       7,
+    "connections_used":  null,
+    "connections_max":   null,
+    "req_per_sec":       null,
+    "last_deployment":   "v2.1.5",
+    "deployment_age_min": 2880
+  },
+  "checkout-api": {
+    "error_rate_pct":    0.2,
+    "cpu_pct":           95.0,
+    "memory_pct":        70.0,
+    "latency_p50_ms":    4800,
+    "latency_p99_ms":    12000,
+    "restarts_1h":       0,
+    "connections_used":  null,
+    "connections_max":   null,
+    "req_per_sec":       350,
+    "last_deployment":   "v3.1.0",
+    "deployment_age_min": 7200
+  },
+  "cache-service": {
+    "error_rate_pct":    0.0,
+    "cpu_pct":           22.0,
+    "memory_pct":        45.0,
+    "latency_p50_ms":    320,
+    "latency_p99_ms":    450,
+    "restarts_1h":       0,
+    "connections_used":  null,
+    "connections_max":   null,
+    "req_per_sec":       500,
+    "last_deployment":   "v1.2.0",
+    "deployment_age_min": 20160
+  },
+  "payment-api": {
+    "error_rate_pct":    18.0,
+    "cpu_pct":           25.0,
+    "memory_pct":        40.0,
+    "latency_p50_ms":    12000,
+    "latency_p99_ms":    30000,
+    "restarts_1h":       0,
+    "connections_used":  null,
+    "connections_max":   null,
+    "req_per_sec":       45,
+    "last_deployment":   "v4.0.2",
+    "deployment_age_min": 11520
+  }
+}

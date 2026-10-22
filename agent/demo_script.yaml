@@ -1,0 +1,19 @@
+title: "DevOps Incident Responder: an AI on-call team with safe production actions"
+pitch: "An AI on-call team that reads logs and metrics, finds the root cause, proposes a fix, and writes an incident report — every risky action checked before it runs."
+features:
+  - "read logs and metrics to detect what is abnormal"
+  - "diagnose the root cause with the specific evidence lines"
+  - "check every risky production action with Strands Decider 2B before it runs"
+  - "block or escalate unjustified actions; allow grounded, appropriate ones"
+  - "write a structured incident report with timeline, evidence, and next steps"
+eager: true
+intro: "This DevOps incident responder runs through Amazon Bedrock. For this demo it is told to act immediately, and Strands Decider 2B checks every production action before it runs."
+intro_normal: "This DevOps incident responder runs on Amazon Bedrock AgentCore Runtime. Strands Decider 2B checks every proposed production action before it runs."
+turns:
+  - say: "CRITICAL: api-gateway error rate 42%. Deployment v2.3.1 rolled out 15 minutes ago."
+    narrate: "A deployment just rolled out and the error rate spiked. The agent reads logs and proposes a rollback."
+  - say: "WARNING: checkout-api CPU 95%, response time 4800ms. It is Black Friday, no recent deployment."
+    narrate: "High CPU but no errors and no bad deployment. The agent must scale, not roll back."
+  - say: "INFO: cache-service response time slightly elevated at 320ms, normally 180ms. All metrics otherwise normal."
+    narrate: "A minor latency increase with no errors. The agent should not take a production action."
+outro: "One forward pass per decision, calibrated confidence the code branches on, Amazon Bedrock for the conversation."

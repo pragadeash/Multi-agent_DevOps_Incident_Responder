@@ -1,0 +1,412 @@
+{
+ "rows": [
+  {
+   "i": 0,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 0.5333
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.9323
+    }
+   },
+   "decider_ms": 766.2346658762544,
+   "decider_server_ms": 740.02,
+   "llm": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 1746.0557501763105,
+   "llm_cost": 0.000364
+  },
+  {
+   "i": 1,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.8638
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8515
+    }
+   },
+   "decider_ms": 350.08108406327665,
+   "decider_server_ms": 348.65,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8
+    }
+   },
+   "llm_ms": 1248.005999950692,
+   "llm_cost": 0.0003552
+  },
+  {
+   "i": 2,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.8325
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.5466
+    }
+   },
+   "decider_ms": 252.1845828741789,
+   "decider_server_ms": 249.38,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 1373.7263339571655,
+   "llm_cost": 0.000356
+  },
+  {
+   "i": 3,
+   "expected": {
+    "args_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 0.7901
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.9806
+    }
+   },
+   "decider_ms": 273.1857078615576,
+   "decider_server_ms": 271.37,
+   "llm": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 1336.6128329653293,
+   "llm_cost": 0.00034960000000000004
+  },
+  {
+   "i": 4,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.5529
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8044
+    }
+   },
+   "decider_ms": 345.66287510097027,
+   "decider_server_ms": 344.27,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 1238.9489589259028,
+   "llm_cost": 0.0003472
+  },
+  {
+   "i": 5,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.6627
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.5123
+    }
+   },
+   "decider_ms": 249.4526249356568,
+   "decider_server_ms": 246.99,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 1200.7791670039296,
+   "llm_cost": 0.00035840000000000004
+  },
+  {
+   "i": 6,
+   "expected": {
+    "args_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 0.7292
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.924
+    }
+   },
+   "decider_ms": 294.84224994666874,
+   "decider_server_ms": 292.29,
+   "llm": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 1188.0924589931965,
+   "llm_cost": 0.0003632
+  },
+  {
+   "i": 7,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.6338
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.9024
+    }
+   },
+   "decider_ms": 237.80529107898474,
+   "decider_server_ms": 236.18,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.8
+    }
+   },
+   "llm_ms": 1276.4757920522243,
+   "llm_cost": 0.000364
+  },
+  {
+   "i": 8,
+   "expected": {
+    "args_grounded": "yes",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 0.768
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.9661
+    }
+   },
+   "decider_ms": 294.6494158823043,
+   "decider_server_ms": 293.27,
+   "llm": {
+    "args_grounded": {
+     "label": "yes",
+     "confidence": 1.0
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 1283.569083083421,
+   "llm_cost": 0.00036720000000000004
+  },
+  {
+   "i": 9,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.8253
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.5989
+    }
+   },
+   "decider_ms": 277.8216248843819,
+   "decider_server_ms": 275.87,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 1125.3409578930587,
+   "llm_cost": 0.0003456
+  },
+  {
+   "i": 10,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "no"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.8732
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.6179
+    }
+   },
+   "decider_ms": 467.63175004161894,
+   "decider_server_ms": 465.44,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "no",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 1248.6813340801746,
+   "llm_cost": 0.0003616
+  },
+  {
+   "i": 11,
+   "expected": {
+    "args_grounded": "no",
+    "explicit_request": "yes"
+   },
+   "decider": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.7947
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.9662
+    }
+   },
+   "decider_ms": 302.16504191048443,
+   "decider_server_ms": 296.76,
+   "llm": {
+    "args_grounded": {
+     "label": "no",
+     "confidence": 0.9
+    },
+    "explicit_request": {
+     "label": "yes",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 1426.09425005503,
+   "llm_cost": 0.0003528
+  }
+ ],
+ "summary": {
+  "decider": {
+   "accuracy": 0.7917,
+   "decisions": 24,
+   "per_question": {
+    "args_grounded": 0.9167,
+    "explicit_request": 0.6667
+   },
+   "latency_p50_ms": 294.8,
+   "latency_p95_ms": 467.6,
+   "usd_per_1k_decisions": 0.0,
+   "confident_share": 0.6667,
+   "accuracy_when_confident": 0.9375,
+   "sent_to_human_at_threshold": 8
+  },
+  "llm": {
+   "accuracy": 0.9583,
+   "decisions": 24,
+   "per_question": {
+    "args_grounded": 0.9167,
+    "explicit_request": 1.0
+   },
+   "latency_p50_ms": 1276.5,
+   "latency_p95_ms": 1426.1,
+   "usd_per_1k_decisions": 0.1785,
+   "confident_share": 1.0,
+   "accuracy_when_confident": 0.9583,
+   "sent_to_human_at_threshold": 0
+  },
+  "speedup_p50": 4.33
+ },
+ "threshold": 0.7,
+ "llm_model": "us.amazon.nova-pro-v1:0",
+ "decider_url": "http://127.0.0.1:8099",
+ "decider_mode": "local",
+ "ran_at": 1791863305.9431438
+}
